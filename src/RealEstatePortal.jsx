@@ -115,6 +115,38 @@ export const RealEstatePortal = () => {
       </div>
       {/* --Bannar--End-- */}
 
+      {/* --Location-- */}
+      <h2 className='text-center text-3xl mt-20 mb-7 text-gray-500 font-semibold'>Locations</h2>
+      <div className='mt-10 mx-7 grid grid-cols-1 md:grid-cols-3 gap-5'>
+        <div className='rounded-lg shadow-lg overflow-hidden'>
+          <img src='./images/ny.jpg' className='w-full'></img>
+          <div className='p-4'>
+            <h1 className=' font-bold text-lg mb-1'>New York</h1>
+            <p className=' text-slate-500'>
+              New York City comprises 5 brought sitting where the Hodson River meets the Atlantic Ocean. At its core is Manhattan, a densely populated borough that's among the world's major commercial, financial and cultual centers. It's conic sites include sky scrapers such as Empire State Building and sprawling Cantral Park.
+            </p>
+          </div>
+        </div>
+        <div className='rounded-lg shadow-lg overflow-hidden'>
+          <img src='./images/california.jpg' className='w-full mb-1'></img>
+          <div className='p-4'>
+            <h1 className=' font-bold text-lg'>San Francisco</h1>
+            <p className=' text-slate-500'>
+            San Franscso, officially the City and County of San Francisco is a commercial, financial and cultual center in the state of California.
+            </p>
+          </div>
+        </div>
+        <div className='rounded-lg shadow-lg overflow-hidden'>
+          <img src='./images/chicago.jpg' className='w-full mb-1'></img>
+          <div className='p-4'>
+            <h1 className=' font-bold text-lg'>Chicago</h1>
+            <p className=' text-slate-500'>
+            New York City comprises 5 brought sitting where the Hodson River meets the Atlantic Ocean. At its core is Manhattan, a densely populated borough that's among the world's major commercial, financial and cultual centers. It's conic sites include sky scrapers such as Empire State Building and sprawling Cantral Park.
+            </p>
+          </div>
+        </div>
+      </div>
+      {/* --Location--End-- */}
     </div >
   )
 }

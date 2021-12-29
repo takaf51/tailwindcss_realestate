@@ -33,7 +33,7 @@ export const RealEstatePortal = () => {
             <div className='w-full sm:w-auto bg-green-500 px-10 py-4 rounded-md text-white font-semibold text-center'>
               <a href=''>View properties</a>
             </div>
-            <div className='w-full sm:w-auto bg-green-200 text-green-800 px-10 py-4 rounded-md text-white font-semibold text-center'>
+            <div className='w-full sm:w-auto bg-green-200 text-green-800 px-10 py-4 rounded-md font-semibold text-center'>
               <a href=''>Explore locations</a>
             </div>
           </div>

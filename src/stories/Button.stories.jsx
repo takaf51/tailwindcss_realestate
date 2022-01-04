@@ -18,13 +18,23 @@ const Template = (args) => <Button {...args} />;
 export const Primary = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
 Primary.args = {
-  label: 'This is a button',
+  primary: true,
+  label: 'Button',
 };
 
-Primary.parameters = {
-  design: {
-    type: 'figma',
-    url: 'https://www.figma.com/file/1qYOl59kVzgYnXWJQ6O2vS/Untitled?node-id=102%3A4'
-  },
-  zeplinLink: "zpl://components?pid=61d363112967ca1219584135&coid=61d363128530641107dd2df9"
-}
+export const Secondary = Template.bind({});
+Secondary.args = {
+  label: 'Button',
+};
+
+export const Large = Template.bind({});
+Large.args = {
+  size: 'large',
+  label: 'Button',
+};
+
+export const Small = Template.bind({});
+Small.args = {
+  size: 'small',
+  label: 'Button',
+};

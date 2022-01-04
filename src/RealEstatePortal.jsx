@@ -159,4 +159,5 @@ const bgStyle = {
   backgroundImage: "linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./images/luxury.jpg')"
 };
 
+
 {/*bg-[linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url('luxury.jpg')]*/ }

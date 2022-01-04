@@ -5,7 +5,7 @@ import React from 'react';
  */
 export const Button = ({ label}) => {
   return (
-    <button>
+    <button className=' bg-yellow-500 px-3 py-2 rounded-lg'>
       {label}
     </button>
   );

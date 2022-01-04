@@ -1,5 +1,6 @@
 import { ColoredMessage } from "./components/ColoredMessage";
 import './App.css';
+import {Button} from "./stories/Button";
 
 export const App = () => {
   const onClickButton = ({ target }) => {
@@ -8,6 +9,7 @@ export const App = () => {
 
   return (
     <div>
+      <Button label='This is a test'>This is test</Button>
       <div className="m-8 p-4  bg-gray-600 rounded-lg">
         <h1 className="text-fuchsia-500">Hello World!</h1>
         <ColoredMessage color='blue'>Props React</ColoredMessage>
